@@ -7,3 +7,4 @@ btn.addEventListener('mouseover', function(){
     let image = 0
 let imageObject = document.querySelector('.cover-image img');
 })
+
