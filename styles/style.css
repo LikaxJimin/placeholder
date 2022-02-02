@@ -52,14 +52,14 @@ body {
 
 .title-city {
     position: relative;
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
 }
 .country-code {
     display: inline 
 }
 .contacts {
-    font-size: 30px;
+    font-size: 25px;
 
 }
 nav {position: relative;
