@@ -25,9 +25,7 @@ h4 {
 .card {
 	color: #013243; /*SHERPA BLUE*/
 	position: relative;
-	top: 30%;
-	left: 30%;
-	width: 275px;
+top: 40px; left: 210px;
 	height: 400px;
 	background: #e0e1dc;
 	transform-style: preserve-3d;
