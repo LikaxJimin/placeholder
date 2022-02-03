@@ -24,7 +24,7 @@ h4 {
 
 .card {
 	color: #013243; /*SHERPA BLUE*/
-	position: absolute;
+	position: relative;
 	top: 30%;
 	left: 30%;
 	width: 275px;
@@ -123,7 +123,7 @@ h4 {
 }
 .card2 {
 	color: #013243; /*SHERPA BLUE*/
-	position: absolute;
+	position: relative;
 	top: 90%;
 	left: 90%;
 	width: 275px;
