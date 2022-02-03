@@ -1,183 +1,94 @@
-* {
-    box-sizing: border-box;
+$color-bg: #fde3a7;
+$book-color-bg: lighten($color-bg, 20%);
+$book-color-border: lighten(#000, 85%);
+$book-border: 1px solid $book-color-border;
+
+%book-rounded-corners {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-@font-face {
-    font-family: Unica;
-    src: url('../assets/Unica77-Regular.otf');
+// LOL CSS
+body,
+html {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
 }
 
 body {
-    font-family: Unica;
-    background-color: black;
+  background: #fde3a7;
 }
 
-.container {
-    width: 100%;
-    font-family: Unica;
+ul {
+  display: table-cell;
+  vertical-align: middle;
 }
 
+.list-inline {
+  padding-left: 0;
+  list-style: none;
 
-.cover {
-    height: 100vh;
-    max-height: 100vh;
-    display: flex;
-    width: 100%;
+  > li {
+    display: inline-block;
+    margin-left: 2em;
+  }
+
+  > li:first-child {
+    margin-left: 0;
+  }
 }
 
-.cover-image {
-    padding: 20px;
-    width: 100%;
+.book {
+  @extend %book-rounded-corners;
+
+  cursor: pointer;
+  display: block;
+  width: 150px;
+  height: 220px;
+  position: relative;
+  background: $book-color-bg; 
+  z-index: 1;
+  box-shadow: 0 2px 4px 0 rgba(#000, .1), 0 9px 20px 0 rgba(#000, .25);
+  overflow: hidden;
+  transition: box-shadow .3s linear;
 }
 
-.cover-image img {
-    width: 100%; 
-    height: 100%;
-    object-fit: cover;
-    border-radius: 2vw;
+.book img {
+  @extend %book-rounded-corners;
+
+  width: inherit;
+  height: inherit;
+  transform-origin: 0 50%;
+  transform: rotateY(0);
+  transition: all .45s ease;
 }
 
-.cover-title {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    font-size: 40px;
-    text-align: center;
+.book:hover {
+  box-shadow: 0 2px 4px 0 rgba(#000, .25), 0 9px 20px 0 rgba(#000, .45);
+
+  img {
+    transform: rotateY(-25deg);
+    box-shadow: 1px 1px 5px 5px rgba(#000, .2);
+  }
 }
 
+.book::after,
+.book::before {
+  @extend %book-rounded-corners;
 
-.country-code {
-    display: inline 
+  content: '';
+  display: block;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  background: $book-color-bg;
+  border: $book-border;
 }
 
-.title-city {
-    position: relative;
-    font-size: 100px;
-    text-align: center;
- 
-  
-}
-  
+.book::before { left: -3px; }
+.book::after { left: -6px; }
 
-
-
-.title-next {
-    background-color: white;
-    padding: 15px 15px 10px 20px;
-    color: black;
-    border-radius: 70px;
-    cursor: pointer;
-}
-nav {position: absolute;
-    padding: 30px;
-    cursor: pointer;
-}
-nav.visited {
-    color: rgb(255, 255, 255);
-}
-.projects {
-    height: 100vh;
-    max-height: 100vh;
-    display: flex;
-    width: 100%;
-}
-
-
-    
-
-.projects {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    color: white;
-    font-size: 30px;
-    padding: 30px;
-    justify-content: space-between;
-}
-.header {
-    font-size: 20px;
-}
-
-.a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 100px;
-  
-
-}
-
-
-a:hover{ 
-    background-color: rgb(3, 3, 3);
-    cursor: pointer;
-    
-}
-a:visited {
-    color: rgb(255, 255, 255);
-}
-
-
-.list-item {
-    padding: 2%;
-}
-.list-item img {
-    width: 70%;
-    display: flex;
-
-}
-
-.weather {
-    height: 100vh;
-    max-height: 100vh;
-    display: flex;
-    width: 100%;
-    padding: 10px;
-}
-
-.weather-now {
-    flex-direction: column;
-    width: 40%;
-    color: white;
-    font-size: 60px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.show-image {
-    width: 60%;
-    display: flex;
-}
-.hidden-image {
-    display: none;
-}
-
-.show-image img {
-    width: 100%; 
-    height: 100%;
-    object-fit: cover;
-    border-radius: 2vw;
-}
-
-.show-button {
-    position: absolute;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 60%;
-}
-.button-text{
-    background-color: white;
-    padding: 15px 15px 10px 20px;
-    color: black;
-    border-radius: 70px;
-    cursor: pointer;
-    font-size: 40px;
-
-}
