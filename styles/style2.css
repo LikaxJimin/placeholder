@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 body {
-	font-family: 'arial', cursive !important;
+
   background: #f1e4c6; /*CAPE HONEY*/
 	margin: 0px;
 	padding: 0px;
@@ -14,8 +14,8 @@ body {
 
 h4 {
 	font-size: 26px;
-	line-height: 1px;
-	font-family: 'arial', cursive !important;
+	line-height: 5px;
+	
 }
 
 .color1{color:#1BBC9B}/*MOUNTAIN MEADOW*/
@@ -110,7 +110,7 @@ h4 {
 .card .details p {
 	font-size: 15px;
 	line-height: 5px;
-	transform: rotate(-10deg);
+
 	padding: 0 0 0 20px;
 }
 
