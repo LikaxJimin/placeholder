@@ -123,9 +123,9 @@ h4 {
 }
 .card2 {
 	color: #013243; /*SHERPA BLUE*/
+
 	position: relative;
-	top: 90%;
-	left: 90%;
+top: 40px; left: 40px;
 	width: 275px;
 	height: 400px;
 	background: #e0e1dc;
