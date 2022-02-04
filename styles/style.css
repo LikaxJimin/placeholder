@@ -313,8 +313,8 @@ a.hover {background-color: rgb(3, 3, 3);}
   z-index: 2;
   position: relative;
   transform: translateY(-15px);
- bottom: 100;
-  left: 0;
+ bottom: 100px;
+  left: 0px;
  width: 100% }
   
   
