@@ -342,8 +342,8 @@ a.hover {background-color: rgb(3, 3, 3);}
       object-fit: cover }
 
     .red2 {position: absolute;
-        top: 100px;
-        left: 50px;
+        top: 120px;
+        left: 70px;
         box-shadow: 0px -5px 20px 2px rgba(rgb(160, 160, 160), 0.3);
         width: 200px;
         height: 300px;
