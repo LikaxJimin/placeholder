@@ -310,7 +310,7 @@ a.hover {background-color: rgb(3, 3, 3);}
   text-align: center;
   position: relative } */
 
-.book-grid { 
+/* .book-grid { 
   z-index: 2;
   position: relative;
   transform: translateY(-15px);
@@ -331,7 +331,7 @@ a.hover {background-color: rgb(3, 3, 3);}
      margin: auto;
       
   
-      justify-self: left}
+      justify-self: left} */
       
     
   .red1 {position: absolute;
