@@ -61,8 +61,9 @@ body {
     display: inline 
 }
 .name {
+  position: relative;
   font-size: 25px;
-  margin: 40px;
+  margin: 10px;
 }
 .contacts {
     font-size: 15px;
