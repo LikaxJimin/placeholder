@@ -55,7 +55,7 @@ body {
     top: 20px;
     font-size: 80px;
     text-align: center;
-    padding: 10px;
+   margin: 10px;
 }
 .country-code {
     display: inline 
