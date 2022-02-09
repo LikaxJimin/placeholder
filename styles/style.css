@@ -344,12 +344,12 @@ a.hover {background-color: rgb(3, 3, 3);}
       object-fit: cover }
       
 
-    .red2 {position: relative;
+    .red2 img{position: relative;
         top: 0px;
         left: 260px;
         box-shadow: 0px -5px 20px 2px rgba(rgb(160, 160, 160), 0.3);
-        width: 110px;
-        height: 180px;
+        width: 110mm;
+        height: 180mm;
         object-fit: cover }
 
     .red3 {position: relative;
