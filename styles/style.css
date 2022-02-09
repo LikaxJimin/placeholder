@@ -59,6 +59,10 @@ body {
 .country-code {
     display: inline 
 }
+.name {
+  font-size: 25px;
+    padding: 10px;
+}
 .contacts {
     font-size: 15px;
     padding: 10px;
