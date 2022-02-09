@@ -62,11 +62,11 @@ body {
 }
 .name {
   font-size: 25px;
-    padding: 10px;
+  margin: 10px;
 }
 .contacts {
     font-size: 15px;
-    padding: 10px;
+    margin: 10px;
 
 }
 nav {position: relative;
