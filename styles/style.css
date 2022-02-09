@@ -304,11 +304,11 @@ a.hover {background-color: rgb(3, 3, 3);}
 
 
   }
-  .bookshelf {
+  /* .bookshelf {
   width: 3000px;
   margin: 5rem auto;
   text-align: center;
-  position: relative }
+  position: relative } */
 
 /* .book-grid { 
   z-index: 2;
