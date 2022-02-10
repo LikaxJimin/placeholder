@@ -321,7 +321,7 @@ a.hover {background-color: rgb(3, 3, 3);}
 .image{ 
 
   position: relative;
-  width: 100px;
+  width: 1000px;
 }
 
 
@@ -387,11 +387,11 @@ a.hover {background-color: rgb(3, 3, 3);}
       transform: translateY(0px)
     }
     .image__title {
-      font-size: 2em;
+      font-size: 15px;
       font-weight: bold;
     } 
     .image__description{
-      font-size: 1.25em;
+      font-size: 10px;
       margin-top: 0.25em;
 
     }
