@@ -320,7 +320,7 @@ a.hover {background-color: rgb(3, 3, 3);}
 
 .image{ 
 
-  position: relative;
+  position: absolute;
   width: 32.5mm;
   height: 49mm;
 }
@@ -345,7 +345,7 @@ a.hover {background-color: rgb(3, 3, 3);}
       
     
   .red1 img {
-    position: relative;
+    position: absolute;
     /* display: block; */
       top: 50px;
       left: 5px;
