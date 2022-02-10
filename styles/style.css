@@ -320,7 +320,7 @@ a.hover {background-color: rgb(3, 3, 3);}
 
 .image{ 
 
-  position: relative;
+  position: absolute;
 }
 
 
