@@ -345,9 +345,9 @@ a.hover {background-color: rgb(3, 3, 3);}
       
     
   .red1 img {
-    position: relative;
+    position: absolute;
     /* display: block; */
-    /* display: inline-block; */
+    display: inline-block;
       top: 50px;
       left: 5px;
       width: 32.5mm;
