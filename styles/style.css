@@ -345,7 +345,7 @@ a.hover {background-color: rgb(3, 3, 3);}
       
     
   .red1 img {
-    /* position: absolute; */
+    position: relative;
     /* display: block; */
       top: 50px;
       left: 5px;
@@ -389,6 +389,7 @@ a.hover {background-color: rgb(3, 3, 3);}
       transform: translateY(0px)
     }
     .image__title {
+      
       font-size: 15px;
       font-weight: bold;
     } 
