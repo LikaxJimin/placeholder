@@ -321,9 +321,8 @@ a.hover {background-color: rgb(3, 3, 3);}
 .image{ 
 
   position: relative;
-  width: 100%;
-  /* width: 32.5mm;
-  height: 49mm; */
+  width: 32.5mm;
+  height: 49mm;
 }
 
 
