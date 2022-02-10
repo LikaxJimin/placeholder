@@ -351,15 +351,7 @@ a.hover {background-color: rgb(3, 3, 3);}
       height: 49mm;
       margin: 10px;
       object-fit: cover;
-      background: rgba(0, 0, 0, 0.6);
-      color: white;
-      font-family: 'Times New Roman', Times, serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      opacity: 0;
-      transition: opaacity 0.25s;
+   
       
     }
     .overlay {  background: rgba(0, 0, 0, 0.6);
