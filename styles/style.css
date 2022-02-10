@@ -320,7 +320,7 @@ a.hover {background-color: rgb(3, 3, 3);}
 
 .image{ 
 
-  position: absolute;
+  position: relative;
 }
 
 
@@ -342,7 +342,8 @@ a.hover {background-color: rgb(3, 3, 3);}
       justify-self: left} */
       
     
-  .red1 img {position: absolute;
+  .red1 img {
+    /* position: absolute; */
     display: block;
       top: 50px;
       left: 10px;
