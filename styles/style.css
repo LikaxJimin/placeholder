@@ -215,7 +215,7 @@ a.hover {background-color: rgb(3, 3, 3);}
     top: 0;
     left: -1px;
   }
-  .btn-border-o:hover:before {
+  /* .btn-border-o:hover:before {
     width: 100%;
   }
   .btn-border-o:hover:after {
@@ -308,10 +308,10 @@ a.hover {background-color: rgb(3, 3, 3);}
   border-radius: 30px;
   padding: 12px 21px;
 
-    
+     */
 
 
-  }
+  /* } */
   /* .bookshelf {
   width: 3000px;
   margin: 5rem auto;
