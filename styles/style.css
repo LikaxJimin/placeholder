@@ -320,7 +320,7 @@ a.hover {background-color: rgb(3, 3, 3);}
 
 .image{ 
 
-  position: static; 
+  position: relative;
   width: 32.5mm;
   height: 49mm;
 }
@@ -363,7 +363,7 @@ a.hover {background-color: rgb(3, 3, 3);}
       
     }
     .image__overlay { 
-      position: static; 
+      position: absolute; 
       top: 0px;
       left: 0px;
       width: 100%;
