@@ -51,17 +51,17 @@ body {
 }
 
 .title-city {
-    position:fixed;
+    /* position:fixed; */
     top: 20px;
     font-size: 80px;
     text-align: center;
-   margin: 10px;
+    margin: 10px;
 }
 .country-code {
     display: inline 
 }
 .name {
-  position: relative;
+  /* position: relative; */
   top: 20px;
   font-size: 25px;
   margin: 10px;
