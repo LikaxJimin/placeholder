@@ -345,13 +345,12 @@ a.hover {background-color: rgb(3, 3, 3);}
       
     
   .red1 img {
-    object-position: left top;
-object-position: 10px 50px;
+    
     /* position: absolute; */
     /* display: block; */
     display: inline-block;
-      /* top: 50px;
-      left: 5px; */
+      top: 50px;
+      left: 5px;
       width: 32.5mm;
       height: 49mm;
       /* margin: 10px; */
