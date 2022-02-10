@@ -349,16 +349,17 @@ a.hover {background-color: rgb(3, 3, 3);}
     /* display: block; */
       top: 50px;
       left: 10px;
-   
       width: 32.5mm;
       height: 49mm;
       margin: 10px;
       object-fit: cover;
    
       
+   
+      
     }
     .image__overlay { 
-      position: absolute; 
+      position: relative; 
       top: 0;
       left: 0;
       width: 100%;
