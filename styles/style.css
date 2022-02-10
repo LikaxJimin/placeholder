@@ -359,7 +359,7 @@ a.hover {background-color: rgb(3, 3, 3);}
       
     }
     .image__overlay { 
-      position: relative; 
+      position: absolute; 
       top: 0;
       left: 0;
       width: 100%;
