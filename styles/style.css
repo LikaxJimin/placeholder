@@ -344,7 +344,7 @@ a.hover {background-color: rgb(3, 3, 3);}
       justify-self: left} */
       
 .red1 {
-  position: relative;
+  position: static;
 }
 
   .red1 img {
