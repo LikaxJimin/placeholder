@@ -343,9 +343,7 @@ a.hover {background-color: rgb(3, 3, 3);}
   
       justify-self: left} */
       
-.red1 {
-  position: static;
-}
+
 
   .red1 img {
     
@@ -365,7 +363,7 @@ a.hover {background-color: rgb(3, 3, 3);}
       
     }
     .image__overlay { 
-      position: absolute; 
+      position: static; 
       top: 0px;
       left: 0px;
       width: 100%;
