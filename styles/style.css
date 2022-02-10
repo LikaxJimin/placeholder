@@ -51,7 +51,7 @@ body {
 }
 
 .title-city {
-    /* position:fixed; */
+    position:fixed;
     top: 20px;
     font-size: 80px;
     text-align: center;
@@ -71,8 +71,7 @@ body {
     margin: 10px;
 
 }
-nav {
-  /* position: relative; */
+nav {position: relative;
     padding: 20px;
     cursor: pointer;
 }
@@ -319,12 +318,12 @@ a.hover {background-color: rgb(3, 3, 3);}
   text-align: center;
   position: relative } */
 
-/* .image{ 
+.image{ 
 
   position: relative;
   width: 32.5mm;
   height: 49mm;
-} */
+}
 
 
 
@@ -347,7 +346,7 @@ a.hover {background-color: rgb(3, 3, 3);}
 
 
   .red1 img {
-    /* position: relative; */
+    position: relative;
     top: 50px;
     left: 30px;
     margin: 10px;
