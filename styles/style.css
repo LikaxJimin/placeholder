@@ -360,7 +360,7 @@ object-fit: cover }
 
 p {
   color: white;
-  position: relative;
+  position: absolute;
   top: 10px;
   left: 70px;
 }
