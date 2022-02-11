@@ -387,7 +387,7 @@ p {
       
    
    
-    .image__overlay { 
+    /* .image__overlay { 
       position: absolute; 
       top: 50px;
       left: 30px;
@@ -401,19 +401,19 @@ p {
       flex-direction: column;
       /* align-items: center;
       justify-content: center; */ 
-      align-items:left;
+      /* align-items:left;
       justify-content: left;
       opacity: 0;
       transition: opaacity 0.25s;
 
-    }
+    } */ 
 
     /* .image__overlay > * {
 
       transform: translateY(20px);
       transition: transform 0.25s;
     } */
-    .image__overlay:hover {
+    /* .image__overlay:hover {
       opacity: 1;
     }
 
@@ -429,7 +429,7 @@ p {
       font-size: 10px;
       margin-top: 5px;
 
-    }
+    } */
 
 
       
