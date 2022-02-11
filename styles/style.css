@@ -352,7 +352,7 @@ object-fit: cover }
     object-fit: cover }
 
 .tab div:target {
-    display: block;
+    display: inline;
   
 }
 /* .link1 {
