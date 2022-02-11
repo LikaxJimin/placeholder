@@ -332,6 +332,10 @@ margin: 10px;
 width: 32.5mm;
 height: 49mm;
 /* object-fit: cover } */}
+a img {position: absolute;
+top: 200px;
+left: 70px;
+margin: 10px;}
 
 #link2 img {
   position: absolute;
