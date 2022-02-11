@@ -322,7 +322,7 @@ a {font-size: 20px;
     color: white;
 }
 .link1 img {
-position: absolute;
+position: relative;
 top: 350px;
 left: 70px;
 margin: 10px;
@@ -350,10 +350,10 @@ object-fit: cover }
     height: 40mm;
     object-fit: cover }
 
-.tab div:target {
+/* .tab div:target {
     display: block;
   
-}
+} */
 .link1 {
   color: white;
 }
