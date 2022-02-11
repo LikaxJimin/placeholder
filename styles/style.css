@@ -317,11 +317,11 @@ a {font-size: 20px;
   margin: 5rem auto;
   text-align: center;
   position: relative } */
-.red1{
+  .tab div {
     display: none;
     color: white;
 }
-.red1 img {
+.link1 img {
 position: relative;
 top: 350px;
 left: 70px;
