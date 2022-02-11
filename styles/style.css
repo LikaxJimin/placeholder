@@ -349,10 +349,10 @@ height: 49mm;
     height: 40mm;
     /* object-fit: cover } */}
 
-/* .tab div:target {
+.tab div:target {
     display: inline;
   
-} */
+}
 /* .link1 {
   color: white;
 } */
