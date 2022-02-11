@@ -350,7 +350,7 @@ height: 49mm;
     /* object-fit: cover } */}
 
 .tab div:target {
-    display: inline;
+    display: block;
   
 }
 /* .link1 {
