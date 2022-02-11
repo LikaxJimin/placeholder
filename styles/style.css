@@ -401,7 +401,7 @@ p {
   
   color: white;
   position: fixed;
- 
+  transform: translateX;
   top: 200px;
   left: 70px;
 ;
