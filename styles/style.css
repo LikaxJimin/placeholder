@@ -337,6 +337,9 @@ object-fit: cover }
 .link1 {
   color: white;
 }
+p {
+  color: white;
+}
 .image{ 
 
   position: relative;
