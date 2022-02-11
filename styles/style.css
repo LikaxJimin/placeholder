@@ -428,7 +428,7 @@ a.hover {background-color: rgb(3, 3, 3);}
       height: 40mm;
       object-fit: cover }
 
-      .red4 {position: absolute;
+      .red4 img {position: absolute;
         top: 50px;
         left: 540px;
         margin: 10px;
