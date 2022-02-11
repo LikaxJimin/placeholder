@@ -325,7 +325,7 @@ a {font-size: 20px;
 }
 
 #link1 img {
-/* position: absolute; */
+position: absolute;
 top: 800px;
 left: 70px;
 margin: 10px;
