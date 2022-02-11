@@ -111,6 +111,7 @@ nav.visited {
     color: rgb(255, 255, 255);
 }
 a {font-size: 20px;
+  
 
 
 }
@@ -360,11 +361,7 @@ div.tab a>img {
     
     display: none;
     color: white;
-    margin: auto;
-   margin-top: 20px;
-   margin-left: 10px;
-   padding: 10px;
-   width: 200px;
+    
 }
 
 /* #link1 img {
