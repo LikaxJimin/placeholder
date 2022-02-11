@@ -311,7 +311,7 @@ a {font-size: 20px;
     
 
 
-  }
+  /* } */
   /* .bookshelf {
   width: 3000px;
   margin: 5rem auto;
@@ -333,6 +333,9 @@ object-fit: cover }
 .tab div:target {
     display: block;
   
+}
+.link1 {
+  color: white;
 }
 .image{ 
 
