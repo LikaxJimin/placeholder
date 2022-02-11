@@ -50,12 +50,13 @@ body {
     padding: 20px;
 } */
 
-.title-city {
+.title {
     position:fixed;
     top: 20px;
     font-size: 80px;
     text-align: center;
     margin: 10px;
+    color: white;
 }
 /* .country-code {
     display: inline 
