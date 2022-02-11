@@ -74,16 +74,17 @@ body {
 /* .country-code {
     display: inline 
 } */
+
+.contacts {
+    font-size: 15px;
+    margin: 10px;
+
+}
 .name {
   position: relative;
   top: 20px;
   font-size: 25px;
   margin: 10px;
-}
-.contacts {
-    font-size: 15px;
-    margin: 10px;
-
 }
 nav {position: relative;
     padding: 20px;
