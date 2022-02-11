@@ -80,6 +80,7 @@ body {
   position: fixed;
   top: 100px;
   left: 100px;
+  flex-direction: column;
   align-items: center;
   margin: 10px;
     color: rgb(255, 255, 255);
