@@ -319,9 +319,7 @@ a {font-size: 20px;
   text-align: center;
   position: relative } */
   .tab div {
-    position: absolute;
-    top: 350px;
-    left: 70px;
+    
     display: none;
     color: white;
 }
