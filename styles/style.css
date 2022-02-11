@@ -321,15 +321,35 @@ a {font-size: 20px;
     display: none;
     color: white;
 }
-.tab img {
+.link1 img {
 position: relative;
 top: 350px;
 left: 70px;
-/* margin: 10px; */
+margin: 10px;
 
 width: 32.5mm;
 height: 49mm;
 object-fit: cover }
+
+.link2 img {
+  position: relative;
+  top: 350px;
+  left: 70px;
+  margin: 10px;
+  
+  width: 27.5mm;
+  height: 45mm;
+  object-fit: cover }
+
+  .link3 img {
+    position: relative;
+    top: 350px;
+    left: 70px;
+    margin: 10px;
+    
+    width: 30mm;
+    height: 40mm;
+    object-fit: cover }
 
 .tab div:target {
     display: block;
