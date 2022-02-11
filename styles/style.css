@@ -332,7 +332,8 @@ margin: 10px;
 width: 32.5mm;
 height: 49mm;
 /* object-fit: cover } */}
-.tab a img {position: absolute;
+a img {position: absolute;
+  display: list-item;
 top: 200px;
 left: 70px;
 margin: 10px;}
