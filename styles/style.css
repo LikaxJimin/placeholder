@@ -323,7 +323,19 @@ a {font-size: 20px;
     display: none;
     color: white;
 }
+.red1 {
 
+  color:White;
+
+  padding:5px;
+  font-family:Comic Sans MS;
+  font-size:20px;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+
+  }
 #link1 img {
 position: absolute;
 top: 800px;
