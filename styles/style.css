@@ -80,6 +80,7 @@ body {
   position: fixed;
   top: 100px;
   left: 100px;
+  align-items: center;
   margin: 10px;
     color: rgb(255, 255, 255);
     font-size: 25px; }
