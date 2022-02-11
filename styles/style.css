@@ -322,7 +322,7 @@ a {font-size: 20px;
     color: white;
 }
 .link1 img {
-position: relative;
+position: absolute;
 top: 350px;
 left: 70px;
 margin: 10px;
@@ -331,7 +331,7 @@ height: 49mm;
 object-fit: cover }
 
 .link2 img {
-  position: relative;
+  position: absolute;
   top: 350px;
   left: 70px;
   margin: 10px;
@@ -341,7 +341,7 @@ object-fit: cover }
   object-fit: cover }
 
   .link3 img {
-    position: relative;
+    position: absolute;
     top: 350px;
     left: 70px;
     margin: 10px;
