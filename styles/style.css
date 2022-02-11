@@ -395,6 +395,7 @@ height: 49mm;
 } */
 
 p {
+  display: none;
   color: white;
   position: fixed;
   top: 250px;
