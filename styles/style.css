@@ -322,7 +322,7 @@ a {font-size: 20px;
     display: none;
     color: white;
 }
-a #link1 img {
+#link1 img {
 position: absolute;
 top: 800px;
 left: 0px;
@@ -331,7 +331,7 @@ width: 32.5mm;
 height: 49mm;
 /* object-fit: cover } */}
 
-a #link2 img {
+#link2 img {
   position: absolute;
   top: 350px;
   left: 70px;
@@ -340,14 +340,14 @@ a #link2 img {
   height: 45mm;
   /* object-fit: cover } */}
 
-a #link3 img {
+  #link3 img {
     position: absolute;
     top: 350px;
     left: 70px;
     margin: 10px;
     width: 30mm;
     height: 40mm;
-    /* object-fit: cover } */}a 
+    /* object-fit: cover } */}
 
 .tab div:target {
     display: inline;
