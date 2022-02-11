@@ -317,7 +317,14 @@ a.hover {background-color: rgb(3, 3, 3);}
   margin: 5rem auto;
   text-align: center;
   position: relative } */
+  .tab div {
+    display: none;
+}
 
+.tab div:target {
+    display: block;
+  
+}
 .image{ 
 
   position: relative;
