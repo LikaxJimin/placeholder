@@ -2,10 +2,10 @@
     box-sizing: border-box;
 }
 
-@font-face {
+/* @font-face {
     font-family: Unica;
     src: url('../assets/Unica77-Regular.otf');
-}
+} */
 
 body {
     font-family: Unica;
