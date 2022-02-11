@@ -342,7 +342,7 @@ object-fit: cover }
 p {
   color: white;
   position: relative;
-  top: 50px;
+  top: 10px;
   left: 70px;
 }
 .image{ 
