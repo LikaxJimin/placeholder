@@ -322,7 +322,7 @@ a {font-size: 20px;
     color: white;
 }
 .link1 img {
-position: relative;
+position: absolute;
 top: 350px;
 left: 70px;
 margin: 10px;
