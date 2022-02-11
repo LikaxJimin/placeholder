@@ -319,7 +319,7 @@ a {font-size: 20px;
   text-align: center;
   position: relative } */
   .tab div {
-    display: none;
+    display: inline;
     color: white;
 }
 #link1 img {
