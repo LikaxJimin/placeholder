@@ -322,7 +322,7 @@ a {font-size: 20px;
     display: none;
     color: white;
 }
-#link1 img {
+a #link1 img {
 position: absolute;
 top: 800px;
 left: 0px;
@@ -340,14 +340,14 @@ a #link2 img {
   height: 45mm;
   /* object-fit: cover } */}
 
-  #link3 img {
+a #link3 img {
     position: absolute;
     top: 350px;
     left: 70px;
     margin: 10px;
     width: 30mm;
     height: 40mm;
-    /* object-fit: cover } */}
+    /* object-fit: cover } */}a 
 
 .tab div:target {
     display: inline;
