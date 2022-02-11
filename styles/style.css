@@ -341,8 +341,12 @@ object-fit: cover }
 
 p {
   color: white;
+  position: relative;
+  top: 200px;
+  left: 70px;
 }
 .image{ 
+  
 
   position: relative;
   width: 32.5mm;
