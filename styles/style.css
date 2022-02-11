@@ -38,7 +38,7 @@ body {
 
 .cover-title {
     display: flex;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -62,7 +62,7 @@ body {
     display: inline 
 } */
 .name {
-  /* position: relative; */
+  position: relative;
   top: 20px;
   font-size: 25px;
   margin: 10px;
@@ -331,7 +331,7 @@ width: 32.5mm;
 height: 49mm;
 /* object-fit: cover } */}
 
-#link2 img {
+a #link2 img {
   position: absolute;
   top: 350px;
   left: 70px;
