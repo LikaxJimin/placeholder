@@ -113,14 +113,17 @@ nav.visited {
     color: rgb(255, 255, 255);
 }
 a {font-size: 20px;
+  display: inline-block;
+
  
 
 
 }
-/* a #link5 {  display: block;
-  margin: 80px;
+a img {  display: inline-block;
+  border-spacing: 30px;
 
-} */
+
+}
 
 
 /* a.hover {background-color: rgb(3, 3, 3);} */
