@@ -62,9 +62,14 @@ a {font-size: 20px;
     display: inline-block;
   
    
-  
+
   
   }
+.map  {
+    position: absolute;
+    top: 770px;
+    left: 400px;
+}
 p {
   
   color: white;
