@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -61,7 +62,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 
   text-align: center;
   z-index: 10;
@@ -90,7 +91,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 
   text-align: center;
 
