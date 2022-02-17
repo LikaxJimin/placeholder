@@ -20,9 +20,8 @@ body {
     top: 20px;
     color: rgb(255, 255, 255);
     font-size: 80px;
-    width: 100%;
-    height: 100%;
-    /* flex-direction: column;
+  
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
   
@@ -34,7 +33,7 @@ body {
     
      
   
-      margin: 10px; */
+      margin: 10px;
   
   } 
 
