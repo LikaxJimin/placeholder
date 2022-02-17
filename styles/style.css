@@ -227,7 +227,7 @@ input.tv-search-input-tm:-ms-input-placeholder {
   height:0;
   overflow:hidden;
 }
-.tv-search-result-ul-tm ul {
+.tv-search-result-ul-tm li {
   color: rgb(255, 255, 255)
 }
 @keyframes fadeIn {
