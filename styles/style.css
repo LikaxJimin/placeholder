@@ -154,13 +154,13 @@ video {
 p.tv-search-title-tm {
   font-size:20px;
   font-weight:400;
-  padding-top:5px;
+  padding-top:7px;
   color:#219ae2;
 
 }
 .tv-search-tm i.material-icons {
   position:absolute;
-  top:7px;
+  top:10px;
   right:15px;
   font-size:30px;
   color:#219ae2;
