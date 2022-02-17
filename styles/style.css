@@ -120,8 +120,8 @@ a {font-size: 20px;
 
 }
 video {
-  max-width: 100vh;
-  max-height: 80vh ;
+  min-width: 100vh;
+  min-height: 80vh ;
 }
 /* a img {  display: inline-block;
   border-spacing: 30px;
