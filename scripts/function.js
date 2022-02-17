@@ -8,8 +8,9 @@
 // let imageObject = document.querySelector('.cover-image img');
 // })
 
-$(function(){
 
+$(function(){
+ 
     $('input[type="text"]').keyup(function(){
         
         var searchText = $(this).val().toUpperCase();
@@ -27,5 +28,5 @@ $(function(){
             
         });     
     });
-
+ 
 });
