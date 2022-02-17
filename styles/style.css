@@ -537,7 +537,7 @@ height: 49mm;
 p {
   
   color: white;
-  position: fixed;
+  position: absolute;
   transform: translateX;
   top: 200px;
   left: 70px;
