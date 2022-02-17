@@ -53,7 +53,7 @@ body {
 
 .title {
 
-  position: fixed;
+  position: relative;
   top: 20px;
 
   width: 100%;
