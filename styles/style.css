@@ -176,6 +176,7 @@ input.tv-search-input-tm {
   font-size:20px;
   font-weight:300;
   color:#219ae2;
+  padding-top: 10px;
 }
 input.tv-search-input-tm::-webkit-input-placeholder {
    color: #aaaaaa;
