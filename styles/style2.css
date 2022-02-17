@@ -67,8 +67,8 @@ a {font-size: 20px;
   }
 .map  {
     position: absolute;
-    top: 790px;
-    left: 300px;
+    top: 50%;
+    left: 80%;
 }
 p {
   
