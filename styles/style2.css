@@ -65,13 +65,16 @@ a {font-size: 20px;
 
   
   }
+  .link1 img {
+      display: block;
+  }
 .map  {
     position: absolute;
     top: 110%;
     left: 70%;
 }
 p {
-  display:none;
+  
   color: white;
   position: absolute;
   transform: translateX;
