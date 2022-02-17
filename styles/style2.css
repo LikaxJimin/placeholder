@@ -65,7 +65,8 @@ p {
   position: absolute;
   transform: translateX;
   top: 750px;
-  left: 300px;
+  left: 280px;
+  font-size: 200px;
 
 
 }  
