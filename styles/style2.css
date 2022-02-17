@@ -66,7 +66,7 @@ a {font-size: 20px;
   
   }
 .map  {
-    position: relative;
+    position: absolute;
     top: 70px;
     left: 300px;
 }
