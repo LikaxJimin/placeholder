@@ -58,19 +58,13 @@ header {
 /* .link1 {
   color: white;
 } */
- ul { list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr)
-    }
-    
-    li {
-      
-     margin: auto;
-      
+a {font-size: 20px;
+    display: inline-block;
   
-      justify-self: left}
+   
+  
+  
+  }
 p {
   
   color: white;
