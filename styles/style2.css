@@ -51,7 +51,23 @@ header {
 
 
 }
+.tab div:target {
+    display: block;
   
+}
+/* .link1 {
+  color: white;
+} */
+
+p {
+  
+  color: white;
+  position: absolute;
+  transform: translateX;
+  top: 200px;
+  left: 70px;
+
+}  
   
     
   
