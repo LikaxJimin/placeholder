@@ -18,7 +18,9 @@ body {
 
     position: absolute;
     top: 20px;
-    display: block;
+    width: 50%;
+    height: 50%;
+   
     color: rgb(255, 255, 255);
     font-size: 80px;
     flex-direction: column;
