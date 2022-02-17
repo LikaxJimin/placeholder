@@ -217,6 +217,7 @@ input.tv-search-input-tm:-ms-input-placeholder {
 .tv-search-result-ul-tm .tv-in-tm {
   animation-name: fadeIn;
   animation-duration: 1s;
+  color: rgb(255, 255, 255);
 
 }
 .tv-search-result-ul-tm .tv-out-tm {
