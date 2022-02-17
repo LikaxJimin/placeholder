@@ -18,7 +18,7 @@ $(function(){
             
             var currentLiText = $(this).text().toUpperCase(),
                 showCurrentLi = currentLiText.indexOf(searchText) !== -1;
-            //$(this).toggle( showCurrentLi);
+            $(this).toggle( showCurrentLi);
             if(showCurrentLi){
               $(this).addClass('tv-in-tm').removeClass('tv-out-tm');
             }else{
